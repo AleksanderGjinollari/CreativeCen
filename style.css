@@ -93,9 +93,9 @@ nav a:active {
   z-index: 2;
   scroll-behavior: smooth;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-template-columns: 1fr 1fr 1fr;
   grid-auto-rows: auto;
-  grid-gap: 10rem;
+  grid-gap: 4rem;
   margin-top: 1vh;
 }
 #work {
@@ -105,10 +105,12 @@ nav a:active {
 }
 .work-card {
   border-radius: 5px;
-  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
+  box-shadow: rgba(9, 30, 66, 0.25) 4px 4px 8px -2px,
     rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
   cursor: pointer;
   height: 300px;
+  display: flex;
+  flex-direction: column-reverse;
 }
 
 .work-card:hover {
@@ -121,6 +123,19 @@ nav a:active {
   margin-left: 10%;
   padding-top: 10vh;
 }
+
+.work-card-img {
+  max-width: 90%;
+  min-width: 90%;
+  max-height: fit-content;
+  overflow: hidden;
+  max-height: 70%;
+  min-height: 70%;
+  margin: 5% 0 5% 5%;
+  border-radius: 2px;
+  object-fit: cover;
+}
+
 .before-and-after-h2 {
   color: black;
   margin-left: 10%;
@@ -133,18 +148,7 @@ nav a:active {
   color: black;
   text-align: center;
   height: 20%;
-  background-color: bisque;
-}
-
-.div4 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: bold;
-  width: 100%;
-  height: 100vh;
-  background-color: blue;
-  scroll-behavior: smooth;
+  margin-top: 5%;
 }
 
 .ombrella {
@@ -160,85 +164,112 @@ nav a:active {
 }
 .wrapper {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(40%, 1fr));
+  grid-template-columns: 1fr 1fr;
   grid-auto-rows: auto;
   grid-gap: 2rem;
   margin: 10%;
   min-height: fit-content;
   max-height: fit-content;
 }
+
+.wrapper div {
+  border-radius: 20px;
+}
 .completed-works1 {
   min-height: 30vh;
   width: 100%;
   height: 500px;
-  background-image: url("/images/bg1 effect/Background0.png");
+  background-image: url("https://icecube-eu-409.icedrive.io/thumbnail?p=yWaN.160KD8SfEl6oKwwLYjrPrzTwUs8n_gRMvQsqkhqlWS5gIKQMhvFF9cFB42kX86GqO9y2rWN7Z6iKP9XQ2JjIueBzPUfljoMuTeVKtLgvTAHvNnEiQj9Tev8ouoq&w=1024&h=1024&m=cropped");
   background-size: cover;
-  transition: 4s;
+  background-position: center center;
+  transition: 3s;
 }
 
 .completed-works1:hover {
   min-height: 30vh;
   width: 100%;
   height: 500px;
-  background-image: url("/images/bg1 effect/Background.png");
+  background-image: url("https://icecube-eu-409.icedrive.io/thumbnail?p=rSr6qfL3r_YgsVAUa6t8RVwvAAmoE.A7Xx2aD9Pr9zqZsSWhceqNUPwz9LzTlMb3Zrwr_lsdfZy95wxFRGeRJWJjIueBzPUfljoMuTeVKtLgvTAHvNnEiQj9Tev8ouoq&w=1024&h=1024&m=cropped");
   background-size: cover;
-  transition: 4s;
+  background-position: center center;
+  transition: 3s;
 }
 
 .completed-works2 {
   min-height: 30vh;
   width: 100%;
   height: 500px;
-  background-image: url("/images/bg1 effect/Background0.png");
+  background-image: url("https://icecube-eu-409.icedrive.io/thumbnail?p=nCXWZzRqpkY0xMkgSlOVKoU6NdnxaZ6Qu5M2Kn04c3vdrkSHgumfw8riN0nx0YSPX35ASc6TlZ.y.MlgkbUiKmJjIueBzPUfljoMuTeVKtLgvTAHvNnEiQj9Tev8ouoq&w=1024&h=1024&m=cropped");
   background-size: cover;
-  transition: 4s;
+  background-position: center 35%;
+  transition: 3s;
 }
 
 .completed-works2:hover {
   min-height: 30vh;
   width: 100%;
   height: 500px;
-  background-image: url("/images/bg1 effect/Background.png");
+  background-image: url("https://icecube-eu-409.icedrive.io/thumbnail?p=hEvkst9BbaKT38UTCuSNj.loarqN_eAlBAts7aP57oA3X7x9oVrb_jccqI1y5tAUKPnykWDFJONVK5QuHzvE5PK6OJ6HgLglYnv45wJ0oWp4iN3IHlDyCn8p0gt2ur_h&w=1024&h=1024&m=cropped");
   background-size: cover;
-  transition: 4s;
+  background-position: center 60%;
+  transition: 3s;
 }
 
 .completed-works3 {
   min-height: 30vh;
   width: 100%;
   height: 500px;
-  background-image: url("/images/bg1 effect/Background0.png");
+  background-image: url("https://icecube-eu-409.icedrive.io/thumbnail?p=rf6oV7Kk5NWQxpDz0yF5m3FRnKH3Dnr_B.zo2zrPm9gclUm4yfqBrprz.MX42HF_Z1hhAdh6_q.DOO7AR6YxCWJjIueBzPUfljoMuTeVKtLgvTAHvNnEiQj9Tev8ouoq&w=1024&h=1024&m=cropped");
   background-size: cover;
-  transition: 4s;
+  background-position: center top;
+  transition: 3s;
 }
 
 .completed-works3:hover {
   min-height: 30vh;
   width: 100%;
   height: 500px;
-  background-image: url("/images/bg1 effect/Background.png");
+  background-image: url("https://icecube-eu-409.icedrive.io/thumbnail?p=EuH1yqHTf9fZApH34JAIuhFUp08wTwJsV7hqlPNR4GASdjTjgWPo1hN3joxlWrrG7_vyxBZxT7CTDFDarGwrl2JjIueBzPUfljoMuTeVKtLgvTAHvNnEiQj9Tev8ouoq&w=1024&h=1024&m=cropped");
   background-size: cover;
-  transition: 4s;
+  background-position: center top;
+  transition: 3s;
 }
 
 .completed-works4 {
   min-height: 30vh;
   width: 100%;
   height: 500px;
-  background-image: url("/images/bg1 effect/Background0.png");
+  background-image: url("https://icecube-eu-409.icedrive.io/thumbnail?p=zVuZH.SoEmydqaZs6UU7jVNmc.F7onxFdImuq6hiFyDuIcJK5gsnW6ZIB4umqZOuEzzqRUQvS.cgHK9NqbVgK2JjIueBzPUfljoMuTeVKtLgvTAHvNnEiQj9Tev8ouoq&w=1024&h=1024&m=cropped");
   background-size: cover;
-  transition: 4s;
+  background-position: center 70%;
+  transition: 3s;
 }
 
 .completed-works4:hover {
   min-height: 30vh;
   width: 100%;
   height: 500px;
-  background-image: url("/images/bg1 effect/Background.png");
+  background-image: url("https://icecube-eu-409.icedrive.io/thumbnail?p=Pd5SAZmtq7ne4X7dCWWM.yuIIsVFay.QHZB4Vy8b7cTa6QVMcArNIC_JCsWFPugb3t3F4wooj3vqVQ7JLwTtgmJjIueBzPUfljoMuTeVKtLgvTAHvNnEiQj9Tev8ouoq&w=1024&h=1024&m=cropped");
   background-size: cover;
-  transition: 4s;
+  background-position: center center;
+  transition: 3s;
 }
 
 .layer {
   display: block;
+}
+
+.div4 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-weight: bold;
+  width: 100%;
+  height: 100vh;
+  background-color: blue;
+  scroll-behavior: smooth;
+}
+
+.about-photo {
+  height: 80vh;
 }
