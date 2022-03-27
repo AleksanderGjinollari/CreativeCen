@@ -416,7 +416,7 @@ nav a:active {
     position: absolute;
     color: #fff;
     font-size: 5em;
-    margin-top: 35%;
+    margin-top: 25%;
     text-shadow: 2px 2px 5px #ce5d3a;
   }
   .grid-position {
@@ -479,6 +479,7 @@ nav a:active {
     width: 60%;
     text-align: center;
     margin-left: 20%;
+    margin-top: -150px;
   }
 
   .text {
@@ -500,6 +501,7 @@ nav a:active {
     min-height: 100vh;
     width: 100%;
     margin-top: 20vh;
+    margin-bottom: 20vh;
   }
   .wrapper {
     display: grid;
@@ -629,11 +631,12 @@ nav a:active {
 
   .div4-title {
     color: black;
-    margin-left: 45%;
-    width: 10%;
+    width: 80%;
     text-align: center;
     height: 10%;
-    margin-top: -10vh;
+    margin-top: 10vh;
+    margin-left: 10%;
+    margin-bottom: 10vh;
   }
 
   .img-and-ul {
