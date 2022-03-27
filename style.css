@@ -339,6 +339,1020 @@ nav a:active {
   color: orange;
 }
 
+@media (max-width: 1550px) {
+  html {
+    overflow: scroll;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    width: 100%;
+  }
+
+  body {
+    min-height: 1500px;
+    width: 100%;
+    overflow: hidden;
+  }
+  ::-webkit-scrollbar {
+    width: 0; /* Remove scrollbar space */
+    background: transparent; /* Optional: just make scrollbar invisible */
+  }
+
+  section {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  nav {
+    position: absolute;
+    justify-content: space-between;
+    width: fit-content;
+    margin-top: 10%;
+    margin-left: 10%;
+    z-index: 1;
+  }
+
+  nav a {
+    display: block;
+    text-decoration: none;
+    width: fit-content;
+    font-size: 1.5rem;
+  }
+
+  .logo {
+    margin: 1rem 0;
+    font-size: 3rem;
+  }
+
+  nav a:hover {
+    color: rgb(34, 33, 32);
+    border-bottom: 1px solid rgb(20, 20, 20);
+    transition: 0.5s;
+  }
+
+  nav a:active {
+    color: rgb(238, 66, 14);
+    border-bottom: 1px solid rgb(238, 66, 14);
+  }
+  .container {
+    height: 100vh;
+    scroll-behavior: smooth;
+  }
+
+  .container img {
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    pointer-events: none;
+    z-index: -1;
+  }
+  .main-title {
+    position: absolute;
+    color: #fff;
+    font-size: 6em;
+    margin-top: 20%;
+    text-shadow: 2px 2px 5px #ce5d3a;
+  }
+  .grid-position {
+    margin: 10vh 10%;
+  }
+  .content {
+    width: 100%;
+    background: white;
+    min-height: 700px;
+    z-index: 2;
+    scroll-behavior: smooth;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: auto;
+    grid-gap: 4rem;
+    margin-top: 1vh;
+  }
+  #work {
+    width: 100%;
+    background: white;
+    min-height: 1200px;
+  }
+  .work-card {
+    border-radius: 5px;
+    box-shadow: rgba(9, 30, 66, 0.25) 4px 4px 8px -2px,
+      rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+    cursor: pointer;
+    height: 400px;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .work-card:hover {
+    translate: (0, -20px);
+    box-shadow: 2px 5px 10px rgb(204, 74, 34);
+  }
+
+  .my-work-h2 {
+    color: black;
+    margin-left: 25%;
+    padding-top: 10vh;
+    text-align: center;
+    width: 50%;
+  }
+
+  .work-card-img {
+    max-width: 90%;
+    min-width: 90%;
+    max-height: fit-content;
+    overflow: hidden;
+    max-height: 70%;
+    min-height: 70%;
+    margin: 5% 0 5% 5%;
+    border-radius: 2px;
+    object-fit: cover;
+  }
+
+  .before-and-after-h2 {
+    color: black;
+    width: 60%;
+    text-align: center;
+    margin-left: 20%;
+  }
+
+  .text {
+    font-size: 1.1rem;
+    color: black;
+    text-align: center;
+    height: 20%;
+    margin-top: 5%;
+  }
+
+  .ombrella {
+    margin-top: 200px;
+  }
+  .before-after-main-div {
+    display: block;
+    margin-top: 30vh;
+  }
+  .before-after {
+    min-height: 100vh;
+    width: 100%;
+    margin-top: 20vh;
+  }
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto;
+    grid-gap: 2rem;
+    margin: 10%;
+    min-height: fit-content;
+    max-height: fit-content;
+  }
+
+  .wrapper div {
+    border-radius: 20px;
+  }
+  .completed-works1 {
+    min-height: 30vh;
+    width: 100%;
+    height: 500px;
+    background-image: url("https://icecube-eu-409.icedrive.io/thumbnail?p=rSr6qfL3r_YgsVAUa6t8RVwvAAmoE.A7Xx2aD9Pr9zqZsSWhceqNUPwz9LzTlMb3Zrwr_lsdfZy95wxFRGeRJWJjIueBzPUfljoMuTeVKtLgvTAHvNnEiQj9Tev8ouoq&w=1024&h=1024&m=cropped");
+    background-size: cover;
+    background-position: center center;
+    transition: 1s;
+  }
+
+  .completed-works1:active {
+    min-height: 30vh;
+    width: 100%;
+    height: 500px;
+    background-image: url("https://icecube-eu-409.icedrive.io/thumbnail?p=yWaN.160KD8SfEl6oKwwLYjrPrzTwUs8n_gRMvQsqkhqlWS5gIKQMhvFF9cFB42kX86GqO9y2rWN7Z6iKP9XQ2JjIueBzPUfljoMuTeVKtLgvTAHvNnEiQj9Tev8ouoq&w=1024&h=1024&m=cropped");
+    background-size: cover;
+    background-position: center center;
+    transition: 1s;
+  }
+
+  .completed-works2 {
+    min-height: 30vh;
+    width: 100%;
+    height: 500px;
+    background-image: url("https://icecube-eu-409.icedrive.io/thumbnail?p=hEvkst9BbaKT38UTCuSNj.loarqN_eAlBAts7aP57oA3X7x9oVrb_jccqI1y5tAUKPnykWDFJONVK5QuHzvE5PK6OJ6HgLglYnv45wJ0oWp4iN3IHlDyCn8p0gt2ur_h&w=1024&h=1024&m=cropped");
+    background-size: cover;
+    background-position: center 35%;
+    transition: 1s;
+  }
+
+  .completed-works2:active {
+    min-height: 30vh;
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-image: url("https://icecube-eu-409.icedrive.io/thumbnail?p=nCXWZzRqpkY0xMkgSlOVKoU6NdnxaZ6Qu5M2Kn04c3vdrkSHgumfw8riN0nx0YSPX35ASc6TlZ.y.MlgkbUiKmJjIueBzPUfljoMuTeVKtLgvTAHvNnEiQj9Tev8ouoq&w=1024&h=1024&m=cropped");
+    background-position: center 60%;
+    transition: 1s;
+  }
+
+  .completed-works3 {
+    min-height: 30vh;
+    width: 100%;
+    height: 500px;
+    background-image: url("https://icecube-eu-409.icedrive.io/thumbnail?p=EuH1yqHTf9fZApH34JAIuhFUp08wTwJsV7hqlPNR4GASdjTjgWPo1hN3joxlWrrG7_vyxBZxT7CTDFDarGwrl2JjIueBzPUfljoMuTeVKtLgvTAHvNnEiQj9Tev8ouoq&w=1024&h=1024&m=cropped");
+    background-size: cover;
+    background-position: center top;
+    transition: 1s;
+  }
+
+  .completed-works3:active {
+    min-height: 30vh;
+    width: 100%;
+    height: 500px;
+    background-image: url("https://icecube-eu-409.icedrive.io/thumbnail?p=rf6oV7Kk5NWQxpDz0yF5m3FRnKH3Dnr_B.zo2zrPm9gclUm4yfqBrprz.MX42HF_Z1hhAdh6_q.DOO7AR6YxCWJjIueBzPUfljoMuTeVKtLgvTAHvNnEiQj9Tev8ouoq&w=1024&h=1024&m=cropped");
+    background-size: cover;
+    background-position: center top;
+    transition: 1s;
+  }
+
+  .completed-works4 {
+    min-height: 30vh;
+    width: 100%;
+    height: 500px;
+    background-image: url("https://icecube-eu-409.icedrive.io/thumbnail?p=Pd5SAZmtq7ne4X7dCWWM.yuIIsVFay.QHZB4Vy8b7cTa6QVMcArNIC_JCsWFPugb3t3F4wooj3vqVQ7JLwTtgmJjIueBzPUfljoMuTeVKtLgvTAHvNnEiQj9Tev8ouoq&w=1024&h=1024&m=cropped");
+    background-size: cover;
+    background-position: center 70%;
+    transition: 1s;
+  }
+
+  .completed-works4:active {
+    min-height: 30vh;
+    width: 100%;
+    height: 500px;
+    background-image: url("https://icecube-eu-409.icedrive.io/thumbnail?p=zVuZH.SoEmydqaZs6UU7jVNmc.F7onxFdImuq6hiFyDuIcJK5gsnW6ZIB4umqZOuEzzqRUQvS.cgHK9NqbVgK2JjIueBzPUfljoMuTeVKtLgvTAHvNnEiQj9Tev8ouoq&w=1024&h=1024&m=cropped");
+    background-size: cover;
+    background-position: center center;
+    transition: 1s;
+  }
+
+  .layer {
+    display: block;
+  }
+
+  .div4 {
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+    width: 80%;
+    height: 60vh;
+    scroll-behavior: smooth;
+    margin-left: 10%;
+    flex-direction: column;
+    background: rgb(217, 242, 242);
+    background: rgb(242, 236, 217);
+    background: rgb(255, 164, 0);
+    background: linear-gradient(
+      90deg,
+      rgba(255, 164, 0, 1) 22%,
+      rgba(227, 240, 255, 1) 90%
+    );
+    border-radius: 30px;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50px;
+  }
+
+  .about-photo {
+    position: relative;
+    height: 80vh;
+    margin-bottom: -20px;
+    margin-right: 25%;
+  }
+
+  .div4-title {
+    color: black;
+    margin-left: 10%;
+    width: 80%;
+    text-align: center;
+    height: 10%;
+    margin-top: 15vh;
+  }
+
+  .img-and-ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    margin-top: 10vh;
+  }
+
+  .about-ul {
+    position: absolute;
+    bottom: 60%;
+    right: 10%;
+    list-style: none;
+  }
+  .about-ul li {
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+  }
+
+  .about-ul li a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .about-ul li a:hover {
+    color: orange;
+  }
+  .fa-brands {
+    color: black;
+  }
+
+  .fa-solid {
+    color: black;
+  }
+
+  .fa-brands:hover,
+  .fa-solid:hover {
+    color: orange;
+  }
+}
+
+@media (max-width: 1280px) {
+  html {
+    overflow: scroll;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    width: 100%;
+  }
+
+  body {
+    min-height: 1500px;
+    width: 100%;
+    overflow: hidden;
+  }
+  ::-webkit-scrollbar {
+    width: 0; /* Remove scrollbar space */
+    background: transparent; /* Optional: just make scrollbar invisible */
+  }
+
+  section {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  nav {
+    position: absolute;
+    justify-content: space-between;
+    width: fit-content;
+    margin-top: 10%;
+    margin-left: 10%;
+    z-index: 1;
+  }
+
+  nav a {
+    display: block;
+    text-decoration: none;
+    width: fit-content;
+    font-size: 1.5rem;
+  }
+
+  .logo {
+    margin: 1rem 0;
+    font-size: 3rem;
+  }
+
+  nav a:hover {
+    color: rgb(34, 33, 32);
+    border-bottom: 1px solid rgb(20, 20, 20);
+    transition: 0.5s;
+  }
+
+  nav a:active {
+    color: rgb(238, 66, 14);
+    border-bottom: 1px solid rgb(238, 66, 14);
+  }
+  .container {
+    height: 100vh;
+    scroll-behavior: smooth;
+  }
+
+  .container img {
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    pointer-events: none;
+    z-index: -1;
+  }
+  .main-title {
+    position: absolute;
+    color: #fff;
+    font-size: 6em;
+    margin-top: 20%;
+    text-shadow: 2px 2px 5px #ce5d3a;
+  }
+  .grid-position {
+    margin: 10vh 10%;
+  }
+  .content {
+    width: 100%;
+    background: white;
+    min-height: 700px;
+    z-index: 2;
+    scroll-behavior: smooth;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: auto;
+    grid-gap: 4rem;
+    margin-top: 1vh;
+  }
+  #work {
+    width: 100%;
+    background: white;
+    min-height: 1200px;
+  }
+  .work-card {
+    border-radius: 5px;
+    box-shadow: rgba(9, 30, 66, 0.25) 4px 4px 8px -2px,
+      rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+    cursor: pointer;
+    height: 400px;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .work-card:hover {
+    translate: (0, -20px);
+    box-shadow: 2px 5px 10px rgb(204, 74, 34);
+  }
+
+  .my-work-h2 {
+    color: black;
+    margin-left: 25%;
+    padding-top: 10vh;
+    text-align: center;
+    width: 50%;
+  }
+
+  .work-card-img {
+    max-width: 90%;
+    min-width: 90%;
+    max-height: fit-content;
+    overflow: hidden;
+    max-height: 70%;
+    min-height: 70%;
+    margin: 5% 0 5% 5%;
+    border-radius: 2px;
+    object-fit: cover;
+  }
+
+  .before-and-after-h2 {
+    color: black;
+    width: 60%;
+    text-align: center;
+    margin-left: 20%;
+  }
+
+  .text {
+    font-size: 1.1rem;
+    color: black;
+    text-align: center;
+    height: 20%;
+    margin-top: 5%;
+  }
+
+  .ombrella {
+    margin-top: 200px;
+  }
+  .before-after-main-div {
+    display: block;
+    margin-top: 30vh;
+  }
+  .before-after {
+    min-height: 100vh;
+    width: 100%;
+    margin-top: 20vh;
+  }
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto;
+    grid-gap: 2rem;
+    margin: 10%;
+    min-height: fit-content;
+    max-height: fit-content;
+  }
+
+  .wrapper div {
+    border-radius: 20px;
+  }
+  .completed-works1 {
+    min-height: 30vh;
+    width: 100%;
+    height: 500px;
+    background-image: url("https://icecube-eu-409.icedrive.io/thumbnail?p=rSr6qfL3r_YgsVAUa6t8RVwvAAmoE.A7Xx2aD9Pr9zqZsSWhceqNUPwz9LzTlMb3Zrwr_lsdfZy95wxFRGeRJWJjIueBzPUfljoMuTeVKtLgvTAHvNnEiQj9Tev8ouoq&w=1024&h=1024&m=cropped");
+    background-size: cover;
+    background-position: center center;
+    transition: 1s;
+  }
+
+  .completed-works1:active {
+    min-height: 30vh;
+    width: 100%;
+    height: 500px;
+    background-image: url("https://icecube-eu-409.icedrive.io/thumbnail?p=yWaN.160KD8SfEl6oKwwLYjrPrzTwUs8n_gRMvQsqkhqlWS5gIKQMhvFF9cFB42kX86GqO9y2rWN7Z6iKP9XQ2JjIueBzPUfljoMuTeVKtLgvTAHvNnEiQj9Tev8ouoq&w=1024&h=1024&m=cropped");
+    background-size: cover;
+    background-position: center center;
+    transition: 1s;
+  }
+
+  .completed-works2 {
+    min-height: 30vh;
+    width: 100%;
+    height: 500px;
+    background-image: url("https://icecube-eu-409.icedrive.io/thumbnail?p=hEvkst9BbaKT38UTCuSNj.loarqN_eAlBAts7aP57oA3X7x9oVrb_jccqI1y5tAUKPnykWDFJONVK5QuHzvE5PK6OJ6HgLglYnv45wJ0oWp4iN3IHlDyCn8p0gt2ur_h&w=1024&h=1024&m=cropped");
+    background-size: cover;
+    background-position: center 35%;
+    transition: 1s;
+  }
+
+  .completed-works2:active {
+    min-height: 30vh;
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-image: url("https://icecube-eu-409.icedrive.io/thumbnail?p=nCXWZzRqpkY0xMkgSlOVKoU6NdnxaZ6Qu5M2Kn04c3vdrkSHgumfw8riN0nx0YSPX35ASc6TlZ.y.MlgkbUiKmJjIueBzPUfljoMuTeVKtLgvTAHvNnEiQj9Tev8ouoq&w=1024&h=1024&m=cropped");
+    background-position: center 60%;
+    transition: 1s;
+  }
+
+  .completed-works3 {
+    min-height: 30vh;
+    width: 100%;
+    height: 500px;
+    background-image: url("https://icecube-eu-409.icedrive.io/thumbnail?p=EuH1yqHTf9fZApH34JAIuhFUp08wTwJsV7hqlPNR4GASdjTjgWPo1hN3joxlWrrG7_vyxBZxT7CTDFDarGwrl2JjIueBzPUfljoMuTeVKtLgvTAHvNnEiQj9Tev8ouoq&w=1024&h=1024&m=cropped");
+    background-size: cover;
+    background-position: center top;
+    transition: 1s;
+  }
+
+  .completed-works3:active {
+    min-height: 30vh;
+    width: 100%;
+    height: 500px;
+    background-image: url("https://icecube-eu-409.icedrive.io/thumbnail?p=rf6oV7Kk5NWQxpDz0yF5m3FRnKH3Dnr_B.zo2zrPm9gclUm4yfqBrprz.MX42HF_Z1hhAdh6_q.DOO7AR6YxCWJjIueBzPUfljoMuTeVKtLgvTAHvNnEiQj9Tev8ouoq&w=1024&h=1024&m=cropped");
+    background-size: cover;
+    background-position: center top;
+    transition: 1s;
+  }
+
+  .completed-works4 {
+    min-height: 30vh;
+    width: 100%;
+    height: 500px;
+    background-image: url("https://icecube-eu-409.icedrive.io/thumbnail?p=Pd5SAZmtq7ne4X7dCWWM.yuIIsVFay.QHZB4Vy8b7cTa6QVMcArNIC_JCsWFPugb3t3F4wooj3vqVQ7JLwTtgmJjIueBzPUfljoMuTeVKtLgvTAHvNnEiQj9Tev8ouoq&w=1024&h=1024&m=cropped");
+    background-size: cover;
+    background-position: center 70%;
+    transition: 1s;
+  }
+
+  .completed-works4:active {
+    min-height: 30vh;
+    width: 100%;
+    height: 500px;
+    background-image: url("https://icecube-eu-409.icedrive.io/thumbnail?p=zVuZH.SoEmydqaZs6UU7jVNmc.F7onxFdImuq6hiFyDuIcJK5gsnW6ZIB4umqZOuEzzqRUQvS.cgHK9NqbVgK2JjIueBzPUfljoMuTeVKtLgvTAHvNnEiQj9Tev8ouoq&w=1024&h=1024&m=cropped");
+    background-size: cover;
+    background-position: center center;
+    transition: 1s;
+  }
+
+  .layer {
+    display: block;
+  }
+
+  .div4 {
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+    width: 80%;
+    height: 60vh;
+    scroll-behavior: smooth;
+    margin-left: 10%;
+    flex-direction: column;
+    background: rgb(217, 242, 242);
+    background: rgb(242, 236, 217);
+    background: rgb(255, 164, 0);
+    background: linear-gradient(
+      90deg,
+      rgba(255, 164, 0, 1) 22%,
+      rgba(227, 240, 255, 1) 90%
+    );
+    border-radius: 30px;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50px;
+  }
+
+  .about-photo {
+    position: relative;
+    height: 80vh;
+    margin-bottom: -20px;
+    margin-right: 25%;
+  }
+
+  .div4-title {
+    color: black;
+    margin-left: 10%;
+    width: 80%;
+    text-align: center;
+    height: 10%;
+    margin-top: 15vh;
+  }
+
+  .img-and-ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    margin-top: 10vh;
+  }
+
+  .about-ul {
+    position: absolute;
+    bottom: 60%;
+    right: 10%;
+    list-style: none;
+  }
+  .about-ul li {
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+  }
+
+  .about-ul li a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .about-ul li a:hover {
+    color: orange;
+  }
+  .fa-brands {
+    color: black;
+  }
+
+  .fa-solid {
+    color: black;
+  }
+
+  .fa-brands:hover,
+  .fa-solid:hover {
+    color: orange;
+  }
+}
+
+@media (max-width: 1007px) {
+  html {
+    overflow: scroll;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    width: 100%;
+  }
+
+  body {
+    min-height: 1500px;
+    width: 100%;
+    overflow: hidden;
+  }
+  ::-webkit-scrollbar {
+    width: 0; /* Remove scrollbar space */
+    background: transparent; /* Optional: just make scrollbar invisible */
+  }
+
+  section {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  nav {
+    position: absolute;
+    justify-content: space-between;
+    width: fit-content;
+    margin-top: 10%;
+    margin-left: 10%;
+    z-index: 1;
+  }
+
+  nav a {
+    display: block;
+    text-decoration: none;
+    width: fit-content;
+    font-size: 1.5rem;
+  }
+
+  .logo {
+    margin: 1rem 0;
+    font-size: 3rem;
+  }
+
+  nav a:hover {
+    color: rgb(34, 33, 32);
+    border-bottom: 1px solid rgb(20, 20, 20);
+    transition: 0.5s;
+  }
+
+  nav a:active {
+    color: rgb(238, 66, 14);
+    border-bottom: 1px solid rgb(238, 66, 14);
+  }
+  .container {
+    height: 100vh;
+    scroll-behavior: smooth;
+  }
+
+  .container img {
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    pointer-events: none;
+    z-index: -1;
+  }
+  .main-title {
+    position: absolute;
+    color: #fff;
+    font-size: 6em;
+    margin-top: 25%;
+    text-shadow: 2px 2px 5px #ce5d3a;
+  }
+  .grid-position {
+    margin: 10vh 10%;
+  }
+  .content {
+    width: 100%;
+    background: white;
+    min-height: 700px;
+    z-index: 2;
+    scroll-behavior: smooth;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: auto;
+    grid-gap: 4rem;
+    margin-top: 1vh;
+  }
+  #work {
+    width: 100%;
+    background: white;
+    min-height: 1200px;
+  }
+  .work-card {
+    border-radius: 5px;
+    box-shadow: rgba(9, 30, 66, 0.25) 4px 4px 8px -2px,
+      rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+    cursor: pointer;
+    height: 400px;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .work-card:hover {
+    translate: (0, -20px);
+    box-shadow: 2px 5px 10px rgb(204, 74, 34);
+  }
+
+  .my-work-h2 {
+    color: black;
+    margin-left: 25%;
+    padding-top: 10vh;
+    text-align: center;
+    width: 50%;
+  }
+
+  .work-card-img {
+    max-width: 90%;
+    min-width: 90%;
+    max-height: fit-content;
+    overflow: hidden;
+    max-height: 70%;
+    min-height: 70%;
+    margin: 5% 0 5% 5%;
+    border-radius: 2px;
+    object-fit: cover;
+  }
+
+  .before-and-after-h2 {
+    color: black;
+    width: 60%;
+    text-align: center;
+    margin-left: 20%;
+  }
+
+  .text {
+    font-size: 1.1rem;
+    color: black;
+    text-align: center;
+    height: 20%;
+    margin-top: 5%;
+  }
+
+  .ombrella {
+    margin-top: 200px;
+  }
+  .before-after-main-div {
+    display: block;
+    margin-top: 30vh;
+  }
+  .before-after {
+    min-height: 100vh;
+    width: 100%;
+    margin-top: 20vh;
+  }
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto;
+    grid-gap: 2rem;
+    margin: 10%;
+    min-height: fit-content;
+    max-height: fit-content;
+  }
+
+  .wrapper div {
+    border-radius: 20px;
+  }
+  .completed-works1 {
+    min-height: 30vh;
+    width: 100%;
+    height: 500px;
+    background-image: url("https://icecube-eu-409.icedrive.io/thumbnail?p=rSr6qfL3r_YgsVAUa6t8RVwvAAmoE.A7Xx2aD9Pr9zqZsSWhceqNUPwz9LzTlMb3Zrwr_lsdfZy95wxFRGeRJWJjIueBzPUfljoMuTeVKtLgvTAHvNnEiQj9Tev8ouoq&w=1024&h=1024&m=cropped");
+    background-size: cover;
+    background-position: center center;
+    transition: 1s;
+  }
+
+  .completed-works1:active {
+    min-height: 30vh;
+    width: 100%;
+    height: 500px;
+    background-image: url("https://icecube-eu-409.icedrive.io/thumbnail?p=yWaN.160KD8SfEl6oKwwLYjrPrzTwUs8n_gRMvQsqkhqlWS5gIKQMhvFF9cFB42kX86GqO9y2rWN7Z6iKP9XQ2JjIueBzPUfljoMuTeVKtLgvTAHvNnEiQj9Tev8ouoq&w=1024&h=1024&m=cropped");
+    background-size: cover;
+    background-position: center center;
+    transition: 1s;
+  }
+
+  .completed-works2 {
+    min-height: 30vh;
+    width: 100%;
+    height: 500px;
+    background-image: url("https://icecube-eu-409.icedrive.io/thumbnail?p=hEvkst9BbaKT38UTCuSNj.loarqN_eAlBAts7aP57oA3X7x9oVrb_jccqI1y5tAUKPnykWDFJONVK5QuHzvE5PK6OJ6HgLglYnv45wJ0oWp4iN3IHlDyCn8p0gt2ur_h&w=1024&h=1024&m=cropped");
+    background-size: cover;
+    background-position: center 35%;
+    transition: 1s;
+  }
+
+  .completed-works2:active {
+    min-height: 30vh;
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-image: url("https://icecube-eu-409.icedrive.io/thumbnail?p=nCXWZzRqpkY0xMkgSlOVKoU6NdnxaZ6Qu5M2Kn04c3vdrkSHgumfw8riN0nx0YSPX35ASc6TlZ.y.MlgkbUiKmJjIueBzPUfljoMuTeVKtLgvTAHvNnEiQj9Tev8ouoq&w=1024&h=1024&m=cropped");
+    background-position: center 60%;
+    transition: 1s;
+  }
+
+  .completed-works3 {
+    min-height: 30vh;
+    width: 100%;
+    height: 500px;
+    background-image: url("https://icecube-eu-409.icedrive.io/thumbnail?p=EuH1yqHTf9fZApH34JAIuhFUp08wTwJsV7hqlPNR4GASdjTjgWPo1hN3joxlWrrG7_vyxBZxT7CTDFDarGwrl2JjIueBzPUfljoMuTeVKtLgvTAHvNnEiQj9Tev8ouoq&w=1024&h=1024&m=cropped");
+    background-size: cover;
+    background-position: center top;
+    transition: 1s;
+  }
+
+  .completed-works3:active {
+    min-height: 30vh;
+    width: 100%;
+    height: 500px;
+    background-image: url("https://icecube-eu-409.icedrive.io/thumbnail?p=rf6oV7Kk5NWQxpDz0yF5m3FRnKH3Dnr_B.zo2zrPm9gclUm4yfqBrprz.MX42HF_Z1hhAdh6_q.DOO7AR6YxCWJjIueBzPUfljoMuTeVKtLgvTAHvNnEiQj9Tev8ouoq&w=1024&h=1024&m=cropped");
+    background-size: cover;
+    background-position: center top;
+    transition: 1s;
+  }
+
+  .completed-works4 {
+    min-height: 30vh;
+    width: 100%;
+    height: 500px;
+    background-image: url("https://icecube-eu-409.icedrive.io/thumbnail?p=Pd5SAZmtq7ne4X7dCWWM.yuIIsVFay.QHZB4Vy8b7cTa6QVMcArNIC_JCsWFPugb3t3F4wooj3vqVQ7JLwTtgmJjIueBzPUfljoMuTeVKtLgvTAHvNnEiQj9Tev8ouoq&w=1024&h=1024&m=cropped");
+    background-size: cover;
+    background-position: center 70%;
+    transition: 1s;
+  }
+
+  .completed-works4:active {
+    min-height: 30vh;
+    width: 100%;
+    height: 500px;
+    background-image: url("https://icecube-eu-409.icedrive.io/thumbnail?p=zVuZH.SoEmydqaZs6UU7jVNmc.F7onxFdImuq6hiFyDuIcJK5gsnW6ZIB4umqZOuEzzqRUQvS.cgHK9NqbVgK2JjIueBzPUfljoMuTeVKtLgvTAHvNnEiQj9Tev8ouoq&w=1024&h=1024&m=cropped");
+    background-size: cover;
+    background-position: center center;
+    transition: 1s;
+  }
+
+  .layer {
+    display: block;
+  }
+
+  .div4 {
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+    width: 80%;
+    height: 60vh;
+    scroll-behavior: smooth;
+    margin-left: 10%;
+    flex-direction: column;
+    background: rgb(217, 242, 242);
+    background: rgb(242, 236, 217);
+    background: rgb(255, 164, 0);
+    background: linear-gradient(
+      90deg,
+      rgba(255, 164, 0, 1) 22%,
+      rgba(227, 240, 255, 1) 90%
+    );
+    border-radius: 30px;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50px;
+  }
+
+  .about-photo {
+    position: relative;
+    height: 80vh;
+    margin-bottom: -20px;
+    margin-right: 25%;
+  }
+
+  .div4-title {
+    color: black;
+    margin-left: 10%;
+    width: 80%;
+    text-align: center;
+    height: 10%;
+    margin-top: 15vh;
+  }
+
+  .img-and-ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    margin-top: 10vh;
+  }
+
+  .about-ul {
+    position: absolute;
+    bottom: 60%;
+    right: 10%;
+    list-style: none;
+  }
+  .about-ul li {
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+  }
+
+  .about-ul li a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .about-ul li a:hover {
+    color: orange;
+  }
+  .fa-brands {
+    color: black;
+  }
+
+  .fa-solid {
+    color: black;
+  }
+
+  .fa-brands:hover,
+  .fa-solid:hover {
+    color: orange;
+  }
+}
+
 @media (max-width: 992px) {
   html {
     overflow: scroll;
