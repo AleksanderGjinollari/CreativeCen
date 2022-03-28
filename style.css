@@ -1150,7 +1150,7 @@ nav a:active {
     position: absolute;
     color: #fff;
     font-size: 3em;
-    margin-top: 75%;
+    margin-top: 50%;
     text-shadow: 2px 2px 5px #ce5d3a;
   }
 
@@ -1227,11 +1227,20 @@ nav a:active {
   .about-paragraph {
     width: 80%;
     position: absolute;
-    margin-bottom: 120vh;
+    margin-bottom: 140vh;
     margin-left: 0;
     padding: 5%;
     background-color: black;
     border-radius: 20px;
+  }
+  .div4-title {
+  }
+
+  .about-ul {
+    margin-bottom: -20%;
+  }
+  .about-ul li {
+    font-size: 1rem;
   }
 }
 
