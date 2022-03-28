@@ -27,6 +27,7 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 
 nav {
@@ -267,8 +268,7 @@ nav a:active {
   justify-content: space-around;
   font-weight: bold;
   width: 80%;
-  min-height: 60vh;
-  height: 60vh;
+  min-height: 80vh;
   scroll-behavior: smooth;
   margin-left: 10%;
   flex-direction: column;
@@ -547,7 +547,8 @@ nav a:active {
   .about-photo {
     position: relative;
     height: 50vh;
-    margin-right: 60%;
+    margin-left: -20%;
+    margin-bottom: -10%;
   }
 
   .div4-title {
@@ -578,7 +579,7 @@ nav a:active {
     background-color: black;
     padding: 2%;
     border-radius: 20px;
-    margin-bottom: 100vh;
+    margin-bottom: 130vh;
     font-size: 1rem;
     margin-left: 0%;
   }
@@ -669,7 +670,7 @@ nav a:active {
 
   .about-photo {
     height: 40vh;
-    margin-left: 30%;
+    margin-left: -10%;
   }
 
   .about-paragraph {
@@ -789,14 +790,16 @@ nav a:active {
     margin-bottom: 25%;
     font-size: 1.5rem;
   }
-
+  .div4 {
+    min-height: 60vh;
+  }
   .about-ul li {
     font-size: 1rem;
   }
   .about-paragraph {
     width: 80%;
     position: absolute;
-    margin-bottom: 110vh;
+    margin-bottom: 120vh;
     margin-left: 0;
     font-size: 0.65rem;
     padding: 5%;
