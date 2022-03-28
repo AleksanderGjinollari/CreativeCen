@@ -1341,9 +1341,9 @@ nav a:active {
   .about-paragraph {
     width: 80%;
     position: absolute;
-    margin-bottom: 100vh;
+    margin-bottom: 110vh;
     margin-left: 0;
-    font-size: 0.7rem;
+    font-size: 0.65rem;
     padding: 5%;
     background-color: black;
     border-radius: 20px;
