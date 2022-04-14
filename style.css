@@ -80,7 +80,7 @@ nav a:active {
   position: absolute;
   color: #fff;
   font-size: 8em;
-  margin-top: 250px;
+  margin-top: 60vh;
   text-shadow: 2px 2px 5px #ce5d3a;
 }
 .grid-position {
@@ -215,7 +215,7 @@ nav a:active {
   height: 500px;
   background-size: cover;
   background-image: url("https://icecube-eu-409.icedrive.io/thumbnail?p=nCXWZzRqpkY0xMkgSlOVKoU6NdnxaZ6Qu5M2Kn04c3vdrkSHgumfw8riN0nx0YSPX35ASc6TlZ.y.MlgkbUiKmJjIueBzPUfljoMuTeVKtLgvTAHvNnEiQj9Tev8ouoq&w=1024&h=1024&m=cropped");
-  background-position: center 60%;
+  background-position: center 30%;
   transition: 1s;
 }
 
@@ -255,7 +255,7 @@ nav a:active {
   height: 500px;
   background-image: url("https://icecube-eu-409.icedrive.io/thumbnail?p=zVuZH.SoEmydqaZs6UU7jVNmc.F7onxFdImuq6hiFyDuIcJK5gsnW6ZIB4umqZOuEzzqRUQvS.cgHK9NqbVgK2JjIueBzPUfljoMuTeVKtLgvTAHvNnEiQj9Tev8ouoq&w=1024&h=1024&m=cropped");
   background-size: cover;
-  background-position: center center;
+  background-position: center 70%;
   transition: 1s;
 }
 
@@ -295,6 +295,7 @@ nav a:active {
 .div4-title {
   color: black;
   margin-left: 30%;
+  margin-top: 2%;
   width: 40%;
   text-align: center;
   height: 10%;
@@ -347,6 +348,9 @@ nav a:active {
   border-top-left-radius: 20%;
   border-bottom-right-radius: 20%;
   padding: 1% 2%;
+  display: flex;
+  width: 300px;
+  position: absolute;
 }
 
 /* start of 1280px responsiveness */
@@ -389,7 +393,7 @@ nav a:active {
     border-bottom-right-radius: 20%;
     padding: 1% 2%;
     left: 20vh;
-    margin-top: 30vh;
+    margin-top: 19vh;
   }
 }
 
@@ -541,7 +545,7 @@ nav a:active {
   .about-photo {
     position: relative;
     height: 50vh;
-    margin-left: -20%;
+    margin-left: 20%;
     margin-bottom: -10%;
   }
 
@@ -569,11 +573,11 @@ nav a:active {
     font-size: 1.5rem;
   }
   .about-paragraph {
-    width: 80%;
+    width: 30%;
     background-color: black;
     padding: 2%;
     border-radius: 20px;
-    font-size: 1rem;
+    font-size: 10px;
     margin-left: 10%;
     margin-bottom: 10vh;
   }
@@ -816,14 +820,13 @@ nav a:active {
   }
   .about-paragraph {
     position: initial;
-    width: 80%;
-    margin-left: 10%;
+    width: 60%;
+    margin-left: 20%;
     margin-top: 10vh;
-    font-size: 0.65rem;
+    font-size: 0.5rem;
     padding: 5%;
-    background-color: black;
     border-radius: 20px;
-    margin-bottom: 10vh;
+    margin-bottom: -10vh;
   }
 }
 
