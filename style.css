@@ -289,7 +289,7 @@ nav a:active {
   position: relative;
   height: 75vh;
   margin-bottom: -20px;
-  margin-left: 5%;
+  margin-right: 10vw;
 }
 
 .div4-title {
@@ -309,7 +309,7 @@ nav a:active {
 }
 
 .about-ul {
-  position: absolute;
+  position: relative;
   bottom: 20%;
   right: 5%;
   list-style: none;
@@ -341,16 +341,18 @@ nav a:active {
 }
 
 .about-paragraph {
-  color: white;
+  color: black;
   font-size: 0.8rem;
   margin-left: 5%;
-  background-color: rgba(28, 61, 110, 0.158);
+  background-color: rgba(252, 252, 252, 0.158);
   border-top-left-radius: 20%;
   border-bottom-right-radius: 20%;
   padding: 1% 2%;
   display: flex;
   width: 300px;
-  position: absolute;
+  position: relative;
+  height: fit-content;
+  bottom: -10vh;
 }
 
 /* start of 1280px responsiveness */
@@ -388,12 +390,12 @@ nav a:active {
     width: 25%;
     position: absolute;
     font-size: 1rem;
-    background-color: rgba(28, 61, 110, 0.158);
+    background-color: rgba(255, 255, 255, 0.158);
     border-top-left-radius: 20%;
     border-bottom-right-radius: 20%;
     padding: 1% 2%;
-    left: 20vh;
-    margin-top: 19vh;
+    left: 10vh;
+    margin-bottom: 12vh;
   }
 }
 
@@ -567,6 +569,7 @@ nav a:active {
 
   .about-ul {
     margin-bottom: -10%;
+    flex-direction: column;
   }
   .about-ul li {
     color: rgb(0, 0, 0);
@@ -574,11 +577,12 @@ nav a:active {
   }
   .about-paragraph {
     width: 30%;
+    color: white;
     background-color: black;
     padding: 2%;
     border-radius: 20px;
     font-size: 10px;
-    margin-left: 10%;
+    margin-left: 0%;
     margin-bottom: 10vh;
   }
 }
@@ -676,25 +680,36 @@ nav a:active {
     transition: 1s;
   }
 
+  .div4-title {
+  margin-bottom: 70vh;
+  }
+
   .about-photo {
     height: 40vh;
     margin-left: -10%;
+    position: relative;
+    width: 60vw;
+    margin-bottom: -10%;
+
   }
 
   .div4 {
     margin-top: 10vh;
+    min-height: 150vh;
   }
   .about-paragraph {
     width: 80%;
     font-size: 1rem;
-    margin-left: -21.5%;
-    margin-top: 0;
+    margin-bottom: 100%;
     padding: 5%;
     background-color: black;
     border-radius: 20px;
+    margin-left: -6%;
   }
 
   .img-and-ul {
+    flex-direction: column;
+    justify-content: space-around;
   }
   .about-ul {
     margin-bottom: -10%;
@@ -804,27 +819,35 @@ nav a:active {
   }
 
   .about-photo {
-    height: 40vh;
-    left: -10%;
+    height: 25vh;
+    left: 30%;
+    margin-top: 10vh;
+    width: 45vw;
+    bottom: -5.5vh;
   }
 
   .div4-title {
-    margin-bottom: 25%;
+    margin-top: 5%;
+    margin-bottom: 5%;
     font-size: 1.5rem;
   }
   .div4 {
-    min-height: 60vh;
+    min-height: 80vh;
   }
   .about-ul li {
     font-size: 1rem;
   }
+
+  .about-ul {
+    bottom: 65%;
+  }
   .about-paragraph {
     position: initial;
-    width: 60%;
-    margin-left: 20%;
-    margin-top: 10vh;
+    width: 50%;
+    margin-left: 5%;
+    margin-top: -6vh;
     font-size: 0.5rem;
-    padding: 5%;
+    padding: 2%;
     border-radius: 20px;
     margin-bottom: -10vh;
   }
@@ -842,20 +865,6 @@ nav a:active {
     margin-top: 50vh;
   }
 }
-@media (orientation: landscape) and (max-width: 1024) {
-  body {
-    margin: 0;
-  }
+@media (max-width: 1024) and (orientation: landscape)  {
 
-  .main-title {
-    margin-top: -20%;
-  }
-  .about-paragraph {
-  }
-  .div4 {
-    margin-top: 100vh;
-  }
-  .about-ul {
-    bottom: 10vh;
-  }
 }
