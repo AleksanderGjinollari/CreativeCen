@@ -303,6 +303,7 @@ nav a:active {
 .img-and-ul {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  width: 80%;
 }
 
 .about-ul {
@@ -455,9 +456,10 @@ nav a:active {
     margin-top: 5%;
   }
 
+
   .main-title {
     font-size: 6em;
-    margin-top: 15%;
+    margin-top: 70%;
   }
 
   .content {
@@ -561,7 +563,7 @@ nav a:active {
     position: absolute;
     color: #fff;
     font-size: 3em;
-    margin-top: 30%;
+    margin-top: 110%;
     text-shadow: 2px 2px 5px #ce5d3a;
   }
 
@@ -756,54 +758,53 @@ nav a:active {
     background-position: center center;
     transition: 1s;
   }
-
   .about-photo {
-    height: 25vh;
-    left: 30%;
-    margin-top: 10vh;
-    width: 45vw;
-    bottom: -5.5vh;
+    margin-top: 5vh;
   }
 
-  .div4-title {
-    margin-top: 5%;
-    margin-bottom: 5%;
-    font-size: 1.5rem;
-  }
-  .div4 {
-    min-height: 80vh;
-  }
-  .about-ul li {
-    font-size: 1rem;
+  .about-paragraph {
+    margin-left: 85%;
+    width: 150px;
+    font-size: 0.5rem;
   }
 
   .about-ul {
-    bottom: 65%;
+    margin-top: 70%;
+    width: fit-content;
+    margin-left: 15vh;
+    right: 50%;
   }
-  .about-paragraph {
-    position: initial;
-    width: 50%;
-    margin-left: 5%;
-    margin-top: -6vh;
-    font-size: 0.5rem;
-    padding: 2%;
-    border-radius: 20px;
-    margin-bottom: -10vh;
+
+  .about-ul li {
+    font-size: 0.7rem;
+    width: 120%;
   }
 }
 
 @media (max-width: 280px) {
   .about-paragraph {
-    width: 110%;
-    position: absolute;
-    display: flex;
-    left: 5%;
-    bottom: -750vh;
+    margin-left: 60%;
   }
-  .div4 {
-    margin-top: 50vh;
+  .div4-title {
+    font-size: 1rem;
+    width: 78%
+  }
+  .about-photo {
+    height: 20vh;
+    margin-right: 20%;
+    bottom: -15vh;
+  }
+  .about-ul {
+    right: 70%;
+  }
+  .logo {
+    font-size: 2rem;
   }
 }
-@media (max-width: 1024) and (orientation: landscape)  {
-
+@media screen and (orientation:landscape)
+and (min-device-width: 319px)
+and (max-device-width: 1080px) {
+  .about-photo {
+    height: 32vw;
+  }
 }
