@@ -307,12 +307,15 @@ nav a:active {
 
 .about-ul {
   position: relative;
-  right: 5%;
+  right: -15%;
+  margin-top: 55%;
   list-style: none;
+  width: fit-content;
 }
 .about-ul li {
   color: rgb(0, 0, 0);
   font-size: 1.5rem;
+  width: fit-content;
 }
 
 .about-ul li a {
@@ -339,12 +342,10 @@ nav a:active {
 .about-paragraph {
   color: black;
   font-size: 0.8rem;
-  margin-left: 15%;
-  margin-top: 70%;
-  background-color: rgba(252, 252, 252, 0.158);
+  margin-left: 30%;
+  margin-top: 60%;
   border-top-left-radius: 20%;
   border-bottom-right-radius: 20%;
-  padding: 5%;
   display: flex;
   width: 300px;
   position: relative;
@@ -353,46 +354,16 @@ nav a:active {
 
 /* start of 1280px responsiveness */
 @media (max-width: 1550px) {
-  .about-photo {
-    position: relative;
-    height: 60vh;
-    margin-bottom: -20px;
-    margin-left: 40%;
-  }
-
-  .div4-title {
-    color: black;
-    margin-left: 10%;
-    width: 80%;
-    text-align: center;
-    height: 10%;
-    margin-top: 15vh;
-    margin-bottom: 0;
-    font-size: 2rem;
-  }
 
   .about-ul {
-    position: absolute;
-    bottom: 60%;
-    right: 10%;
-    list-style: none;
+    width: 300px;
+    bottom: 0;
+    margin-left: -15vh;
+    margin-top: 10vh;
   }
-  .about-ul li {
-    color: rgb(0, 0, 0);
-    font-size: 1.2rem;
-  }
-
-  .about-paragraph {
-    width: 25%;
-    position: absolute;
-    font-size: 1rem;
-    background-color: rgba(255, 255, 255, 0.158);
-    border-top-left-radius: 20%;
-    border-bottom-right-radius: 20%;
-    padding: 1% 2%;
-    left: 10vh;
-    margin-bottom: 12vh;
-  }
+.about-ul li {
+  font-size: 1rem;
+}
 }
 
 /* start of max-1200px responsiveness */
@@ -452,20 +423,30 @@ nav a:active {
     transition: 1s;
   }
 
-  .about-paragraph {
-    width: 30%;
-    font-size: 0.7rem;
-    margin-left: 5%;
-    margin-bottom: -10%;
-    text-shadow: none;
-    background-color: rgba(28, 61, 110, 0.158);
-    border-top-left-radius: 20%;
-    border-bottom-right-radius: 20%;
-    padding: 2%;
+  .div4 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
   }
   .about-photo {
     height: 50vh;
-    margin-left: 50vh;
+    position: relative;
+    margin-left: -10vh;
+  }
+  .about-paragraph {
+    margin-top:  -90%;
+    margin-left: 80%;
+  }
+
+  .about-ul {
+    position: relative;
+    right: 40%;
+    top: -20%;
+    margin-left: 40%;
+    margin-right: 30%;
+  }
+  .about-ul li {
+    font-size: 1.2rem;
   }
 }
 
@@ -540,12 +521,6 @@ nav a:active {
     transition: 1s;
   }
 
-  .about-photo {
-    position: relative;
-    height: 50vh;
-    margin-left: 20%;
-    margin-bottom: -10%;
-  }
 
   .div4-title {
     color: black;
@@ -554,33 +529,19 @@ nav a:active {
     text-align: center;
     height: 10%;
     margin-left: 10%;
+    padding-bottom: 35%;
   }
 
-  .img-and-ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    position: relative;
+  .about-photo {
+    bottom: -25%;
+    height: 30vh;
   }
 
-  .about-ul {
-    margin-bottom: -10%;
-    flex-direction: column;
-  }
-  .about-ul li {
-    color: rgb(0, 0, 0);
-    font-size: 1.5rem;
-  }
   .about-paragraph {
-    width: 30%;
-    color: white;
-    background-color: black;
-    padding: 2%;
-    border-radius: 20px;
-    font-size: 10px;
-    margin-left: 0%;
-    margin-bottom: 10vh;
+    padding-top: 10%;
   }
+
+
 }
 
 /* start of max-768px responsiveness */
@@ -675,44 +636,26 @@ nav a:active {
     background-position: center center;
     transition: 1s;
   }
-
   .div4-title {
-  margin-bottom: 70vh;
-  }
-
-  .about-photo {
-    height: 40vh;
-    margin-left: -10%;
-    position: relative;
-    width: 60vw;
-    margin-bottom: -10%;
-
-  }
-
-  .div4 {
     margin-top: 10vh;
-    min-height: 150vh;
+  }
+  .about-photo {
+    margin: 0 -10vh;
+    margin-top: 3vh;
   }
   .about-paragraph {
-    width: 80%;
-    font-size: 1rem;
-    margin-bottom: 100%;
-    padding: 5%;
-    background-color: black;
-    border-radius: 20px;
-    margin-left: -6%;
-  }
-
-  .img-and-ul {
-    flex-direction: column;
-    justify-content: space-around;
-  }
-  .about-ul {
-    margin-bottom: -10%;
+    font-size: 0.6rem;
+    margin-left: 60%;
+    width: 200px;
   }
   .about-ul li {
     font-size: 1rem;
+    margin-left: 30%;
   }
+  .about-ul {
+    margin-left: 35%;
+  }
+
 }
 
 /* start of max-480px responsiveness */
