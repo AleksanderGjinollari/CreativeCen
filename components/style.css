@@ -289,7 +289,6 @@ nav a:active {
   position: relative;
   height: 75vh;
   margin-bottom: -20px;
-  margin-right: 10vw;
 }
 
 .div4-title {
@@ -302,21 +301,18 @@ nav a:active {
 }
 
 .img-and-ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .about-ul {
   position: relative;
-  bottom: 20%;
   right: 5%;
   list-style: none;
 }
 .about-ul li {
   color: rgb(0, 0, 0);
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .about-ul li a {
@@ -343,16 +339,16 @@ nav a:active {
 .about-paragraph {
   color: black;
   font-size: 0.8rem;
-  margin-left: 5%;
+  margin-left: 15%;
+  margin-top: 70%;
   background-color: rgba(252, 252, 252, 0.158);
   border-top-left-radius: 20%;
   border-bottom-right-radius: 20%;
-  padding: 1% 2%;
+  padding: 5%;
   display: flex;
   width: 300px;
   position: relative;
   height: fit-content;
-  bottom: -10vh;
 }
 
 /* start of 1280px responsiveness */
