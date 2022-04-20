@@ -89,7 +89,6 @@ nav a:active {
 .content {
   width: 100%;
   background: white;
-  min-height: 100vh;
   z-index: 2;
   scroll-behavior: smooth;
   display: grid;
@@ -287,8 +286,8 @@ nav a:active {
 
 .about-photo {
   position: relative;
-  height: 75vh;
-  margin-bottom: -20px;
+  height: 60vh;
+  bottom: -10vh;
 }
 
 .div4-title {
@@ -304,6 +303,7 @@ nav a:active {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   width: 80%;
+  margin: auto auto;
 }
 
 .about-ul {
@@ -315,8 +315,8 @@ nav a:active {
 }
 .about-ul li {
   color: rgb(0, 0, 0);
-  font-size: 1.5rem;
-  width: fit-content;
+  font-size: 1.2rem;
+  width: 150px;
 }
 
 .about-ul li a {
@@ -361,10 +361,15 @@ nav a:active {
     bottom: 0;
     margin-left: -15vh;
     margin-top: 10vh;
+    right: 10%;
   }
-.about-ul li {
-  font-size: 1rem;
-}
+  .about-ul li {
+    font-size: 1rem;
+  }
+  .img-and-ul {
+
+  margin: auto auto;
+  }
 }
 
 /* start of max-1200px responsiveness */
@@ -660,6 +665,14 @@ nav a:active {
 
 }
 
+@media (max-width: 576px) {
+  .about-ul li {
+    font-size: 0.8rem;
+    width: 100px;
+    margin-left: 10%;
+  }
+}
+
 /* start of max-480px responsiveness */
 @media (max-width: 480px) {
   nav a {
@@ -760,6 +773,7 @@ nav a:active {
   }
   .about-photo {
     margin-top: 5vh;
+    margin-left: -100%;
   }
 
   .about-paragraph {
@@ -770,15 +784,21 @@ nav a:active {
 
   .about-ul {
     margin-top: 70%;
-    width: fit-content;
+    width: 50%;
     margin-left: 15vh;
-    right: 50%;
+    right: 80%;
   }
 
   .about-ul li {
     font-size: 0.7rem;
     width: 120%;
+    margin-left: -50%;
   }
+  .div4-title {
+    font-size: 1.2rem;
+  }
+
+  .img-and-ul {}
 }
 
 @media (max-width: 280px) {
@@ -791,7 +811,7 @@ nav a:active {
   }
   .about-photo {
     height: 20vh;
-    margin-right: 20%;
+    margin-left: -150%;
     bottom: -15vh;
   }
   .about-ul {
